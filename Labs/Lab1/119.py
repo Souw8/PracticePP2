@@ -1,0 +1,5 @@
+text = input()
+target=input()
+newword=input()
+res=text.replace(target,newword)
+print(res)
