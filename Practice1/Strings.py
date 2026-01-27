@@ -15,3 +15,6 @@ print(a)
 word="hello"
 print(word[0])#[] with this we take the element spoted in this index and for thi sutiation it will be "h"
 
+for x in "banana":
+  print(x) #and like arrays we can walk through all elements of string 
+  
