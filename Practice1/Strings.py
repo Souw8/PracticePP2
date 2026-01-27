@@ -17,4 +17,6 @@ print(word[0])#[] with this we take the element spoted in this index and for thi
 
 for x in "banana":
   print(x) #and like arrays we can walk through all elements of string 
-  
+
+txt = "The best things in life are free!"
+print("free" in txt) #you can check if in this sentence  we need to check word free in this senntence and output will be true
