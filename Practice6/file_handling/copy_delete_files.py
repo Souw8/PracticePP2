@@ -1,0 +1,32 @@
+"""Delete a File
+To delete a file, you must import the OS module, and run its os.remove() function:
+
+ExampleGet your own Python Server
+Remove the file "text.txt":"""
+
+import os
+os.remove("text.txt")
+
+
+"""Check if File exist:
+To avoid getting an error, you might want to check if the file exists before you try to delete it:
+
+Example
+Check if file exists, then delete it:"""
+
+import os
+import shutil
+if os.path.exists("text.txt"):
+  os.remove("text.txt")
+else:
+  print("The file does not exist")
+"""Delete Folder
+To delete an entire folder, use the os.rmdir() method:
+
+Example
+Remove the folder "myfolder":"""
+
+import os
+os.rmdir("myfolder")
+
+shutil.copy("a.txt", "b.txt")
